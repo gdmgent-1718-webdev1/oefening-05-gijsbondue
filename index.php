@@ -8,7 +8,6 @@
   </head>
   <body>
   <?php
-    print "flabberflabber";
     function checkLeeftijd($leeftijd){
       if( $leeftijd < 17 ){
         return "<p>${leeftijd} jaar is te jong voor deze film.</p>";
